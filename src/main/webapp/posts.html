@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular JS Demo - Posts</title>
+  </head>
+  <body>
+    <div>
+      <h4>Get Post by ID</h4>
+      Post ID:&nbsp;<input type="text" ng-model="id" />
+      <button ng-click="query(id)" type="button">Get Post</button>
+    </div>
+    <div>
+      <h4>Post JSON</h4>
+      <pre>{{postsResponse| json}}</pre>
+    </div>
+  </body>
+</html>
